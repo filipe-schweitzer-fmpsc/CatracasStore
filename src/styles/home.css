@@ -40,6 +40,9 @@
   box-shadow: 0px 0px 12px 4px rgba(0,0,0,0.1);
   border-radius: 12px;
 }
+#phone_button button {
+  box-shadow: none;
+}
 
 #banner {
   display: flex;
@@ -62,4 +65,27 @@
   top: 0;
   right: 0;
   z-index: 1;
+}
+
+@media screen and (max-width: 1178px) {
+  #home {
+    min-height: 100%;
+    padding-top: 0px;
+  }
+  #banner,
+  #banner img,
+  #home .shape {
+    display: none;
+  }
+  #cta {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  #phone_button  button {
+    display: none;
+  }
 }
