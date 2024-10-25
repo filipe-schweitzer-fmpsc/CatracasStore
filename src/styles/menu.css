@@ -7,6 +7,10 @@
 
 }
 
+.tar-image {
+  width: 90%;
+}
+
 #turnstiles {
   width: 100%;
   display: flex;
